@@ -1,0 +1,23 @@
+Testsuite: org.wbuck.RegistryCheckControllerSpec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 2.42 sec
+------------- Standard Output ---------------
+--Output from authenticate then grab order then grab list--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from authenticate then grab order then grab list--
+------------- ---------------- ---------------
+
+Testcase: authenticate then grab order then grab list took 2.366 sec
+	Caused an ERROR
+400 Apigee Internal Error
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+

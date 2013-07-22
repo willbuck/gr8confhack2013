@@ -1,0 +1,1120 @@
+2013-07-21 20:02:41,403 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Target for class: org.wbuck.GuestsSpec
+	at org.wbuck.GuestsSpec.$spock_initializeSharedFields(GuestsSpec.groovy:9)
+2013-07-21 20:02:41,408 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Target for class: org.wbuck.GuestsSpec
+	at org.wbuck.GuestsSpec.$spock_initializeSharedFields(GuestsSpec.groovy:9)
+2013-07-21 20:02:41,411 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Target for class: org.wbuck.GuestsSpec
+	at org.wbuck.GuestsSpec.$spock_initializeSharedFields(GuestsSpec.groovy:9)
+2013-07-21 20:02:41,412 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Target for class: org.wbuck.GuestsSpec
+	at org.wbuck.GuestsSpec.$spock_initializeSharedFields(GuestsSpec.groovy:9)
+2013-07-21 20:02:41,418 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Target for class: org.wbuck.GuestsSpec
+	at org.wbuck.GuestsSpec.$spock_initializeSharedFields(GuestsSpec.groovy:9)
+2013-07-21 20:02:41,419 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingPropertyException: No such property: Target for class: org.wbuck.GuestsSpec
+	at org.wbuck.GuestsSpec.$spock_initializeSharedFields(GuestsSpec.groovy:9)
+2013-07-21 20:31:06,600 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1455)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:589)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:472)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:388)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:293)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:69)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4887)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5381)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:131)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1452)
+	... 23 more
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:129)
+	... 26 more
+2013-07-21 20:31:06,603 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:131)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1452)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:589)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:472)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:388)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:293)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:69)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4887)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5381)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:129)
+	... 26 more
+2013-07-21 20:31:06,604 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:648)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:758)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:746)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:129)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:106)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1514)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1452)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:456)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:294)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:225)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:291)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:589)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:925)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:472)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:388)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:293)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoader.initWebApplicationContext(GrailsContextLoader.java:69)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4887)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5381)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+2013-07-21 20:31:06,604 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,604 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,605 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,605 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+2013-07-21 20:31:06,605 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,637 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,637 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,637 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+2013-07-21 20:31:06,637 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,638 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,638 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,638 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+2013-07-21 20:31:06,638 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,638 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,638 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:31:06,638 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+2013-07-21 20:31:06,638 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
+	at java.lang.Thread.run(Thread.java:680)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: org.wbuck.RegistryCheckController
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: org.wbuck.RegistryCheckController
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+	... 5 more
+2013-07-21 20:52:10,832 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@101b085 expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@3d69084f sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:27)
+2013-07-21 20:52:10,851 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@101b085 expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@3d69084f sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:27)
+2013-07-21 20:52:10,861 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@101b085 expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@3d69084f sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:27)
+2013-07-21 20:52:10,861 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@101b085 expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@3d69084f sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:27)
+2013-07-21 20:52:10,865 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@101b085 expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@3d69084f sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:27)
+2013-07-21 20:52:10,865 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@101b085 expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@3d69084f sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:27)
+2013-07-21 21:01:00,936 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@1df3305e expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@191d7bd5 sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:28)
+2013-07-21 21:01:00,950 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@1df3305e expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@191d7bd5 sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:28)
+2013-07-21 21:01:00,961 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@1df3305e expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@191d7bd5 sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:28)
+2013-07-21 21:01:00,961 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@1df3305e expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@191d7bd5 sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:28)
+2013-07-21 21:01:00,966 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@1df3305e expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@191d7bd5 sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:28)
+2013-07-21 21:01:00,966 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+authResponse.accessToken != null
+|            |           |
+|            null        false
+<wslite.rest.Response@1df3305e expiration=Wed Dec 31 18:00:00 CST 1969 statusMessage=OK charset=null date=Wed Dec 31 18:00:00 CST 1969 contentLength=472 lastModified=Wed Dec 31 18:00:00 CST 1969 url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck statusCode=200 headers={=HTTP/1.1 200 OK, Connection=Close, Content-Length=472, Content-Type=application/json} contentEncoding=null contentType=application/json request=<wslite.http.HTTPRequest@191d7bd5 sslTrustAllCerts=false proxy=null useCaches=false followRedirects=true sslTrustStoreFile=null url=https://api.target.com/guests/v3/auth?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck headers={Accept=application/json, application/javascript, text/javascript, text/json, Content-Type=application/json; charset=UTF-8} readTimeout=0 connectTimeout=0 method=POST>>
+
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:28)
+2013-07-21 21:01:52,423 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:01:52,425 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:01:52,425 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:01:52,425 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:01:52,427 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:01:52,427 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:01:52,427 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:01:52,427 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:01:52,432 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:01:52,432 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:01:52,432 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:01:52,432 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=null&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:02:09,021 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:02:09,022 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:02:09,023 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:02:09,023 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:02:09,025 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:02:09,025 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:02:09,025 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:02:09,025 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:02:09,029 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:02:09,030 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:02:09,030 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:02:09,030 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=VtAe9jyiYEkijyRNBTXUmqDEXMZe&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:04:08,090 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:04:08,092 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:04:08,093 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:04:08,093 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:04:08,095 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:04:08,095 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:04:08,095 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:04:08,095 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:04:08,100 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:04:08,100 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:04:08,100 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:04:08,100 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.post(RESTClient.groovy:53)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 2 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 3 more
+2013-07-21 21:06:17,616 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: wslite.rest.RESTClient.get() is applicable for argument types: (java.util.LinkedHashMap, org.wbuck.RegistryCheckControllerSpec$_$spock_feature_0_0_closure2) values: [[path:/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck, ...], ...]
+Possible solutions: get(), get(java.util.Map), grep(), wait(), getUrl(), any()
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:06:17,624 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: wslite.rest.RESTClient.get() is applicable for argument types: (java.util.LinkedHashMap, org.wbuck.RegistryCheckControllerSpec$_$spock_feature_0_0_closure2) values: [[path:/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck, ...], ...]
+Possible solutions: get(), get(java.util.Map), grep(), wait(), getUrl(), any()
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:06:17,630 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: wslite.rest.RESTClient.get() is applicable for argument types: (java.util.LinkedHashMap, org.wbuck.RegistryCheckControllerSpec$_$spock_feature_0_0_closure2) values: [[path:/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck, ...], ...]
+Possible solutions: get(), get(java.util.Map), grep(), wait(), getUrl(), any()
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:06:17,633 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: wslite.rest.RESTClient.get() is applicable for argument types: (java.util.LinkedHashMap, org.wbuck.RegistryCheckControllerSpec$_$spock_feature_0_0_closure2) values: [[path:/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck, ...], ...]
+Possible solutions: get(), get(java.util.Map), grep(), wait(), getUrl(), any()
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:06:17,647 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: wslite.rest.RESTClient.get() is applicable for argument types: (java.util.LinkedHashMap, org.wbuck.RegistryCheckControllerSpec$_$spock_feature_0_0_closure2) values: [[path:/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck, ...], ...]
+Possible solutions: get(), get(java.util.Map), grep(), wait(), getUrl(), any()
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:06:17,649 [main] ERROR StackTrace  - Full Stack Trace:
+groovy.lang.MissingMethodException: No signature of method: wslite.rest.RESTClient.get() is applicable for argument types: (java.util.LinkedHashMap, org.wbuck.RegistryCheckControllerSpec$_$spock_feature_0_0_closure2) values: [[path:/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck, ...], ...]
+Possible solutions: get(), get(java.util.Map), grep(), wait(), getUrl(), any()
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:07:05,117 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:05,119 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:05,119 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:07:05,119 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:05,122 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:05,122 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:05,122 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:07:05,122 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:05,126 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:05,126 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:05,127 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:07:05,127 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?access_token=KrbaV4AP38SbU6FFA5Zx2uJqPFBG&key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:30,333 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:30,335 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:30,335 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1436)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:234)
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:07:30,335 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:30,337 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:30,337 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:30,337 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:07:30,337 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:30,342 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:30,342 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more
+2013-07-21 21:07:30,342 [main] ERROR StackTrace  - Full Stack Trace:
+java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+2013-07-21 21:07:30,342 [main] ERROR StackTrace  - Full Stack Trace:
+wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+	... 3 more
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+	... 4 more

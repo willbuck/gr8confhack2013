@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="Wills-MacBook-Pro-2.local" id="0" name="RegistryCheckControllerSpec" package="org.wbuck" tests="1" time="2.42" timestamp="2013-07-22T02:07:27">
+      <properties />
+
+      <testcase classname="org.wbuck.RegistryCheckControllerSpec" name="authenticate then grab order then grab list" time="2.401">
+          <error message="400 Apigee Internal Error" type="wslite.rest.RESTClientException">wslite.rest.RESTClientException: 400 Apigee Internal Error
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:79)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:61)
+	at wslite.rest.RESTClient.get(RESTClient.groovy:45)
+	at org.wbuck.RegistryCheckControllerSpec.authenticate then grab order then grab list(RegistryCheckControllerSpec.groovy:32)
+Caused by: wslite.http.HTTPClientException: 400 Apigee Internal Error
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:61)
+	at wslite.rest.RESTClient.executeMethod(RESTClient.groovy:77)
+Caused by: java.io.IOException: Server returned HTTP response code: 400 for URL: https://api.target.com/orders/v1?key=RInYScpdFVuUT3ZZgePgeMPQMLDFOYCn&amp;userid=willbuck
+	at wslite.http.HTTPClient.execute(HTTPClient.groovy:55)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from authenticate then grab order then grab list--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from authenticate then grab order then grab list--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
